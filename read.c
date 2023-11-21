@@ -2,18 +2,15 @@
 
 Aim
 To read the given file and to display file contents.
+
 Algorithm
-1.
-2.
-3.
-4.
-Declare a character buffer buf to store 100 bytes.
-Get existing filename as command line argument.
-Open the file for reading using open system call with O_RDONLY option.
-Check the file descriptor.
-a) If file does not exist, then stop.
+1. Declare a character buffer buf to store 100 bytes.
+2. Get existing filename as command line argument.
+3. Open the file for reading using open system call with O_RDONLY option.
+4. Check the file descriptor.
+	a) If file does not exist, then stop.
 5. Read until end-of-file using read system call.
-a) Read 100 bytes (max.) from file and print it
+	a) Read 100 bytes (max.) from file and print it
 6. Close the file using close system call.
 7. Stop
 
